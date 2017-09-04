@@ -208,7 +208,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
 }
 @media (min-width: 768px) {
   .container2 {
-    width: 890px;
+    width: 800px;
   }
   .pageOne{
       height: 1830px;
@@ -219,7 +219,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
 }
 @media (min-width: 992px) {
   .container2 {
-    width: 970px;
+    width: 900px;
   }
 }
 @media (min-width: 1200px) {
