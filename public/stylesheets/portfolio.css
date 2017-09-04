@@ -210,6 +210,12 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
   .container2 {
     width: 750px;
   }
+  .pageOne{
+      height: 1830px;
+  }
+  .pageTwo{
+      height: 1800px;
+  }
 }
 @media (min-width: 992px) {
   .container2 {
