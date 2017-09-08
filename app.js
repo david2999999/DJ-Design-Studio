@@ -16,6 +16,10 @@ app.get("/TWDB/color-game",function(req, res){
     res.render("TWDB/color-game")
 });
 
+app.get("/TWDB/to-do-list",function(req, res){
+    res.render("TWDB/to-do-list.ejs");
+});
+
 //////////////////
 //FREE CODE CAMP//
 //////////////////

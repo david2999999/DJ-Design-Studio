@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
-      <head>
-            <meta charset="utf-8">
-            <title>To Do List</title>
-            <link rel="stylesheet" href="ToDoList.css">
-            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script
-              src="https://code.jquery.com/jquery-3.2.1.min.js"
-              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-              crossorigin="anonymous"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="../stylesheets/footer-header.css" type="text/css">
+        <link rel="stylesheet" href="../stylesheets/to-do-list.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
       <body>
+            <%include ../partials/header %>
             <div id="container">
                   <h1>To-Do List<i class="fa fa-plus" aria-hidden="true"></i></h1>
                   <input type="text"  placeholder="Add New Todo">
-
-                  <ul>
-                        <li><span><i class="fa fa-trash" aria-hidden="true"></i></span>Go To Potion Class</li>
-                        <li><span><i class="fa fa-trash" aria-hidden="true"></i></span>Buy New Robe</li>
-                        <li><span><i class="fa fa-trash" aria-hidden="true"></i></span>Visit Hagrid</li>
+                  <ul class="ulist">
+                        <li class="list"><span><i class="fa fa-trash" aria-hidden="true"></i></span>Go To Potion Class</li>
+                        <li class="list"><span><i class="fa fa-trash" aria-hidden="true"></i></span>Buy New Robe</li>
+                        <li class="list"><span><i class="fa fa-trash" aria-hidden="true"></i></span>Visit Hagrid</li>
                   </ul>
             </div>
-            <script type="text/javascript" src="ToDoList.js"></script>
-      </head>
+            <%include ../partials/footer %>
       </body>
+      <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/to-do-list.js"></script>
+        
 </html>
