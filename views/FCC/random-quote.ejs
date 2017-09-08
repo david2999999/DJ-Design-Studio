@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>Random Quote Generator</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../stylesheets/random-quote.css" type="text/css">
+            <link rel="stylesheet" href="../stylesheets/footer-header.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+      <body>
+            <%include ../partials/header %>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-md-8 text-center col-md-offset-2">
+                              <h1 class="lobster head">Random Quote Generator</h1>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-md-12 text-center content">
+                              <h3 class="lobster" id="quote-content"></h3>
+                              <h4 class="lobster" id="quote-author"></h4>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-md-12">
+                              <button type="button" name="button" class="btn btn-large btn-default center-block lobster" id="get-another-quote-button">Get Another Quote</button>
+                        </div>
+                  </div>
+            </div>
+            <%include ../partials/footer %>
+            
+      </body>
+      <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="../js/random-quote.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

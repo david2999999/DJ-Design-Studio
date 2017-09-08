@@ -1,0 +1,56 @@
+body{
+      background: #232323;
+      color: white;
+      font-family: "Montserrat", "Avenir";
+}
+.title{
+      text-align: center;
+      background: steelblue;
+      transition: background 0.3s;
+      margin-top: -20px;
+      line-height: 1.5;
+}
+button{
+      border: none;
+      background: white;
+      color: steelblue;
+      font-size: 2em;
+      height: 100%;
+      transition: all 0.3s;
+      outline: none;
+      font-weight: bold;
+}
+#options{
+      text-align: center;
+      background: white;
+      margin-top: -10px;
+}
+
+button.reset:hover, button.mode:hover , .selected{
+      background: steelblue;
+      color: white;
+}
+
+.margin{
+      margin: 6% auto;
+      
+      max-width: 800px;
+}
+.square{
+      width: 30%;
+      float: left;
+      background: white;
+      margin: 1.5%;
+      height: 190px;
+      border-radius: 16%;
+      display: none;
+      transition: background 0.3s;
+}
+
+#answer{
+      width: 150px;
+      font-size: 2em;
+      text-align: center;
+      margin: 0 100px 0 100px;
+      display: inline;
+}

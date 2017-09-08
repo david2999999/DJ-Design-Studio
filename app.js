@@ -9,6 +9,20 @@ app.get("/", function(req, res){
     res.render("index");    
 });
 
+//////////////////////////////
+//THE WEB DEVELOPER BOOTCAMP//
+//////////////////////////////
+app.get("/TWDB/color-game",function(req, res){
+    res.render("TWDB/color-game")
+});
+
+//////////////////
+//FREE CODE CAMP//
+//////////////////
+app.get("/FCC/random-quote",function(req, res) {
+    res.render("FCC/random-quote");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("DJ Design Studio has started");
 });

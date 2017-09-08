@@ -1,0 +1,62 @@
+body{
+      background: url("../img/img1.jpg");
+      background-size: cover;
+}
+
+.btn{
+      margin-top: 30px;
+      font-size: 2em;
+}
+
+.btn:hover{
+      transition: box-shadow 1s ease;
+      color: white;
+      -webkit-box-shadow: 0px 0px 52px 6px rgba(0,77,232,1);
+      -moz-box-shadow: 0px 0px 52px 6px rgba(0,77,232,1);
+      box-shadow: 0px 0px 52px 6px rgba(0,77,232,1);
+}
+.lobster{
+      font-family: lobster;
+}
+
+.head{
+     margin-top: 20%;
+      font-size: 4em;
+      color:  blue;
+      display: block;
+      margin-bottom: 4%;
+      border: 1px solid transparent;
+      border-radius: 20%;
+      background: #CCFFFF;
+      opacity: .7;
+      -webkit-box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+      -moz-box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+      box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+}
+
+.content{
+      display: block;
+      height: 270px;
+      background: #66CCFF;
+      opacity: .9;
+      border-radius: 10%;
+      -webkit-box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+      -moz-box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+      box-shadow: 0px 0px 52px 6px rgba(0,161,230,1);
+}
+
+#quote-content{
+      color: #003399;
+      font-size: 3em;
+}
+
+#quote-author{
+      color: #217C7E;
+      font-size: 2.5em;
+}
+
+#get-another-quote-button{
+      margin-bottom: 20%;
+      color:  #003399;
+      opacity: .8;
+}
