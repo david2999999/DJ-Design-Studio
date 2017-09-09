@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>Current Weather</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../stylesheets/weather-api.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../stylesheets/footer-header.css" type="text/css">
+      </head>
+      <body>
+            <ul id="slideshow">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+            </ul>
+      
+            <%include ../partials/header %>
+            <div class="text-center">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-md-12 col-sm-12 text-center">
+                                    <div id="location" ></div>
+                              </div>
+                              <div class="col-md-12 col-sm-12 text-center">
+                                    <div id="date" ></div>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-md-2 col-sm-2">
+                                    <div id="weather"></div>
+                              </div>
+                              <div class="col-md-1 col-sm-1">
+                                    <button class="btn btn-default" id="tempButton">Change to Celcius</button>
+                              </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-md-7 col-sm-7">
+                                    <div id="fahr"></div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            
+            <%include ../partials/footer %>
+
+      </body>
+      <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type = "text/javascript" src="../js/weather-api.js"></script>
+</html>
