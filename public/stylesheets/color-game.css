@@ -3,6 +3,10 @@ body{
       color: white;
       font-family: "Montserrat", "Avenir";
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
 .title{
       text-align: center;
       background: steelblue;

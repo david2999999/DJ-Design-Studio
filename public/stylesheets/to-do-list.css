@@ -3,6 +3,9 @@ body{
       background: url("../img/img8.jpg");
       background-size: cover;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 h1{
       background: #2980b9;
       color: white;

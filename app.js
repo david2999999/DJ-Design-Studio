@@ -30,6 +30,12 @@ app.get("/FCC/random-quote",function(req, res) {
 app.get("/FCC/weather",function(req, res) {
     res.render("FCC/weather-api");
 });
+app.get("/FCC/wiki",function(req, res) {
+    res.render("FCC/wiki-api");
+});
+
+
+
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("DJ Design Studio has started");

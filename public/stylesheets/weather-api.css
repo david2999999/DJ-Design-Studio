@@ -5,30 +5,36 @@ body{
       text-shadow: 1px 1px 19px rgba(255, 255, 255, 1);
 }
 
+.content2{
+  height: 1100px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 #location{
-      font-size: 2.5em;
+      font-size: 5em;
 }
 #date{
-      font-size: 1.5em;
+      font-size: 2em;
 }
 #weather{
-      font-size: 2.5em;
+      font-size: 4em;
       float: left;
-      margin-top: 320px;
-      margin-left: 20px;
+      margin-top: 600px;
       margin-bottom: -20px;
 }
 
 #fahr{
-      font-size: 8em;
+      font-size: 9em;
       float: left;
       margin-bottom: 80px;
 }
 
 .btn-default{
       background: white;
-      margin-top: 338px;
+      margin-top: 630px;
       -webkit-box-shadow: 0px 0px 58px 5px rgba(255,255,255,1);
         -moz-box-shadow: 0px 0px 58px 5px rgba(255,255,255,1);
         box-shadow: 0px 0px 58px 5px rgba(255,255,255,1);

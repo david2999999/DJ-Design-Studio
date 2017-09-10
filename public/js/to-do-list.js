@@ -1,3 +1,4 @@
+ /*global $*/
       // check off specific Todos by clicking
       $(".ulist").on("click", ".list", function() {
             $(this).toggleClass("completed");

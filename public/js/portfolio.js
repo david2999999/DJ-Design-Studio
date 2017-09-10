@@ -1,3 +1,4 @@
+/*global $*/
 function goToByScroll(id){
       // Reove "link" from the ID
     id = id.replace("link", "");
