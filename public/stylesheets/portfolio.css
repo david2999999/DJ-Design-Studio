@@ -247,3 +247,9 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
         padding-top: 20%;
     }
 }
+
+
+
+  .col-sm-6 {
+    width: 49%;
+  }
