@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>Blog App</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+            <link rel="stylesheet" href="../stylesheets/footer-header.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+      </head>
+      <body>
+        <%include ../partials/header %>
+        <div class="ui main text container">
+            <div class="ui huge header">RESTful Blog App</div>
+            <div class="ui top attached segment">
+                <div class="ui divided items">
+                    <% blogs.forEach(function(blog){ %>
+                        <div class="item">
+                            <div class="image">
+                                <img src="<%= blog.image %>">
+                            </div>
+                            <div class="content">
+                                <a class="header" href="/blogs/<%=blog._id%>"><%=blog.title%></a>
+                                <div class="meta">
+                                    <span><%= blog.created.toDateString() %></span>
+                                </div>
+                                <div class="description">
+                                    <p><%= blog.body.substring(0, 100)%>..</p>
+                                </div>
+                                <div class="extra">
+                                    <a class="ui floated basic violet button" href="/blogs/<%=blog._id%>">
+                                    Read More
+                                    <li class="right chevron icon"></i>
+                                     </a>
+                                </div>                    
+                            </div>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+        
+        <% include ../partials/footer %>
+      </body>
+      <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="../js/random-quote.js"></script>
+</html>

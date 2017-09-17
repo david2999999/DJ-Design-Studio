@@ -1,15 +1,15 @@
-var express = require("express"),
-    request = require("request"),
-    bodyParser = require("body-parser"),
+// initialize all the variables
+var bodyParser = require("body-parser"),
     methodOverride = require("method-override"),
     expressSanitizer = require("express-sanitizer"),
     mongoose = require("mongoose"),
+    express = require("express"),
     app = express();
     
 
-// mongoose.connect(process.env.DATABASEURL);
+// copy and paste from existing apps  
 mongoose.Promise = global.Promise;
-
+mongoose.connect("mongodb://localhost/resful_blog_app");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
@@ -27,41 +27,25 @@ var blogSchema = new mongoose.Schema({
 
 var Blog = mongoose.model("Blog", blogSchema);
 
-
-///////////////////////////////
+// RESTful routes
 
 app.get("/", function(req, res){
-    res.render("index");    
+    res.redirect("/blogs");
 });
-
-//////////////////////////////
-//THE WEB DEVELOPER BOOTCAMP//
-//////////////////////////////
-app.get("/TWDB/color-game",function(req, res){
-    res.render("TWDB/color-game")
-});
-
-app.get("/TWDB/to-do-list",function(req, res){
-    res.render("TWDB/to-do-list");
-});
-
-///////////////////////////
-// RESTful ROUTING BLOG //
-///////////////////////////
 
 app.get("/blogs", function(req, res){
     Blog.find({}, function(err, blogs){
         if(err){
             console.log(err);
         }else{
-            res.render("Blog/index", {blogs : blogs});
+            res.render("index", {blogs : blogs});
         }
     });
 });
 
 // New Route
 app.get("/blogs/new", function(req, res){
-    res.render("Blog/new");
+    res.render("new");
 });
 
 
@@ -75,7 +59,7 @@ app.post("/blogs", function(req, res){
     
     Blog.create(req.body.blog, function(err, newBlog){
         if(err){
-            res.render("Blog/new");
+            res.render("new");
         }else{
             //then redirect to the index
             res.redirect("/blogs");
@@ -90,7 +74,7 @@ app.get("/blogs/:id", function(req, res) {
        if(err){
            res.redirect("/blogs");
        } else{
-           res.render("Blog/show", {blog: foundBlog});
+           res.render("show", {blog: foundBlog});
        }
     });
 });
@@ -101,7 +85,7 @@ app.get("/blogs/:id/edit",function(req, res){
        if(err){
            res.redirect("/blogs");
        } else{
-           res.render("Blog/edit", {blog: foundBlog});
+           res.render("edit", {blog: foundBlog});
        }
     });
 });
@@ -130,23 +114,7 @@ app.delete("/blogs/:id", function(req, res){
     });
 });
 
-//////////////////
-//FREE CODE CAMP//
-//////////////////
-app.get("/FCC/random-quote",function(req, res) {
-    res.render("FCC/random-quote");
-});
-
-app.get("/FCC/weather",function(req, res) {
-    res.render("FCC/weather-api");
-});
-app.get("/FCC/wiki",function(req, res) {
-    res.render("FCC/wiki-api");
-});
-
-
-
-    
+// runs the server
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("DJ Design Studio has started");
+    console.log("Server is running");
 });

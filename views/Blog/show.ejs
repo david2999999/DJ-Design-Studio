@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta charset="utf-8">
+            <title>Blog App</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+            <link rel="stylesheet" href="../stylesheets/footer-header.css" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+      </head>
+      <body>
+        <% include ../partials/header %>
+        <div class="ui main text container segment">
+            <div class="ui huge header"><%=blog.title%></div>
+            <div class="ui top attached">
+                <div class="item">
+                     <img class="ui centered rounded image" src="<%= blog.image %>">
+                     <div class="content">
+                          <span><%= blog.created.toDateString() %></span>
+                     </div>
+                     <div class="description">
+                           <p><%= blog.body%></p>
+                     </div>
+                     <a class="ui blue basic button" href="/blogs/<%=blog._id%>/edit">Edit</a>
+                     <form id="delete" action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
+                        <button class="ui red basic button">Delete</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <% include ../partials/footer %>
+        </body>
+      <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="../js/random-quote.js"></script>
+</html>
