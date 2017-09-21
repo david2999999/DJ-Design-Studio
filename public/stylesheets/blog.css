@@ -1,15 +1,198 @@
-i.icon, i.icons {
-    font-size: 2em;
+body{
+      color: white;
+      background: black;
+      font-family: lobster;
+      margin: 0;
+      padding: 0;
 }
 
-.ui.inverted.menu {
-    background: orange;
+.button{
+    margin: auto;
+    width: 400px;
+    font-size: 3em;
+    margin-top: 5%;
+    background: #C6E2FF;
+}
+/*.blogBox{*/
+/*    background: white;*/
+/*    opacity: .7;*/
+/*    height: 1000px;*/
+/*    margin-top: 1%;*/
+/*    margin-left: 3%;*/
+/*    border-radius: 5%;*/
+/*}*/
+.blogText{
+    font-family: lobster;
+    font-size: 10em;
+    margin-top: 10%;
+    opacity: 1;
+    text-shadow: 5px 5px 10px gray;
 }
 
-.ui.text.container{
-    margin-top: 7.0em;
+.blogText2{
+    font-size: 3em;
+    text-shadow: 5px 5px 10px gray;
+}
+#pageOne{
+    height: 1400px;
+    width: 100%;
+    background-image: url("../img/img19.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    display: table;
+    background-attachment: fixed;
 }
 
-#delete{
-    display: inline-block;
+#pageTwo{
+    height: 1800px;
+    width: 100%;
+    background-image: url("../img/img21.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    display: table;
+    background-attachment: fixed;
+}
+
+#pageThree{
+    height: 1400px;
+    width: 100%;
+    background-image: url("../img/img17.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    display: table;
+    background-attachment: fixed;
+}
+
+.overlay {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 95%;
+  height: 100%;
+  background-color:  #ff6666;
+  
+}
+
+.container3{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.container3:hover .overlay {
+    opacity: 1;
+    color: white;
+}
+
+.container3:hover .imgthumbnail {
+  opacity: 1;
+}
+
+.container3:hover .boxshadow {
+  opacity: .8;
+}
+
+.container3{
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.imgthumbnail img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+    transition: 1s ease;
+    opacity: 1;
+    border: 1px solid gray;
+}
+
+.imgthumbnail2 img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+    transition: 1s ease;
+    opacity: 1;
+    border: 1px solid gray;
+}
+
+.container2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.padding{
+    margin-top: 5%;
+}
+
+.padding2{
+    margin-bottom: 10%;
+}
+
+/*.header1{*/
+/*    background-color: #d7f2eb;*/
+/*    color: #A253FF;*/
+/*    opacity: .9;*/
+/*    padding: 1em 1em;*/
+/*    font-size: 5em;*/
+/*}*/
+
+
+@media (min-width: 375px){
+    .overlay{
+        width: 95%;
+    }
+
+}
+@media (min-width: 768px) {
+    .overlay{
+        width: 93%;
+    }
+}
+
+@media (min-width: 900px) {
+    .overlay{
+        width: 92%;
+    }
+}
+@media (min-width: 992px) {
+
+    .overlay{
+        width: 93%;
+    }
+}
+@media (min-width: 1200px) {
+    .overlay{
+        width: 94%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .overlay{
+        width: 97%;
+    }
+
 }

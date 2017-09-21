@@ -47,7 +47,7 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  width:96%;
+  width: 96%;
   height: 100%;
   border-radius: 10%;
 }
@@ -80,8 +80,6 @@ h1{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
-
 
 .pageOne{
       background: url("../img/img.jpg");

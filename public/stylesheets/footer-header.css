@@ -6,6 +6,7 @@
     font-size: 1.7em;
     font-family: lobster;
     opacity: .9;
+    z-index: 10;
 }
 
 .navbar-custom .navbar-nav > li > a {
@@ -64,7 +65,7 @@ footer { background-color:#0c1a1e; min-height:400px; font-family: lobster; opaci
 .icon-ul li { line-height:75px; width:100%; float:left;}
 .icon { float:left; margin-right:5px;}
 
-.copyright { min-height:60px; background-color:#000000;}
+.copyright { min-height:60px; background-color:#000000; opacity: 1;}
 .copyright p { text-align:center; color:#FFF; padding:10px 0; margin-bottom:0px; font-size: 1.7em;}
 .heading7 { font-size:3em; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
 .post p { font-size:1.2em; color:#FFF; line-height:20px;}
