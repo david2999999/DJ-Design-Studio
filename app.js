@@ -7,7 +7,7 @@ var express = require("express"),
     app = express();
     
 
-mongoose.connect(process.env.DATABASEURL);
+// mongoose.connect(process.env.DATABASEURL);
 mongoose.Promise = global.Promise;
 
 app.set("view engine", "ejs");
