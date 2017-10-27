@@ -55,31 +55,17 @@ h1{
     animation: shadowEffect 4s linear infinite;
 }
 
-.purple{
-    background-color: #443266;
-}
 
-.brown{
-    background-color: #402824;
-}
-
-.orange{
-    background-color: #751908;
-}
-.boxshadow{
-    
-}
-
-.boxshadow2{
- -webkit-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);
--moz-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);
-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);   
-}
-.boxshadow3{
-    -webkit-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);
--moz-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);
-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);
-}
+/*.boxshadow2{*/
+/* -webkit-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);*/
+/*-moz-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);*/
+/*box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);   */
+/*}*/
+/*.boxshadow3{*/
+/*    -webkit-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
+/*-moz-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
+/*box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
+/*}*/
 
 
 div.item * {
@@ -181,14 +167,10 @@ div.item:hover .overlay {
       width: 50%;
       margin: auto;
       border-radius: 15%;
-      -webkit-box-shadow: 0px 0px 39px 0px rgba(69,213,249,1);
-      -moz-box-shadow: 0px 0px 39px 0px rgba(69,213,249,1);
-      box-shadow: 0px 0px 39px 0px rgba(69,213,249,1);
+    animation: shadowEffect2 3s linear infinite;
 }
 .discription{
--webkit-box-shadow: 0px 0px 50px 5px rgba(245,46,49,1);
--moz-box-shadow: 0px 0px 50px 5px rgba(245,46,49,1);
-box-shadow: 0px 0px 50px 5px rgba(245,46,49,1);
+    animation: shadowEffect3 3s linear infinite;
 }
 
 
@@ -416,28 +398,86 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
 
 @keyframes shadowEffect{
     0%{
-        -webkit-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
-        -moz-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
-        box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(255, 51, 153);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(255, 51, 153);
+        box-shadow: 0px 0px 72px -4px rgb(255, 51, 153);
     }
     25%{
-        -webkit-box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
-        -moz-box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
-        box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(204, 102, 255);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(204, 102, 255);
+        box-shadow: 0px 0px 50px -4px rgb(204, 102, 255);
     }
     50%{
-        -webkit-box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
-        -moz-box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
-        box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
+        -webkit-box-shadow: 0px 0px 40px -4px rgb(255, 0, 255);
+        -moz-box-shadow: 0px 0px 40px -4px rgb(255, 0, 255);
+        box-shadow: 0px 0px 40px -4px rgb(255, 0, 255);
     }
     75%{
-        -webkit-box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
-        -moz-box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
-        box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(153, 51, 153);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(153, 51, 153);
+        box-shadow: 0px 0px 50px -4px rgb(153, 51, 153);
     }
     100%{
-        -webkit-box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
-        -moz-box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
-        box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(204, 0, 255);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(204, 0, 255);
+        box-shadow: 0px 0px 72px -4px rgb(204, 0, 255);
+    }
+}
+
+
+@keyframes shadowEffect2{
+        0%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
+        box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
+    }
+    25%{
+        -webkit-box-shadow: 0px 0px 65px -4px rgb(51, 204, 204);
+        -moz-box-shadow: 0px 0px 65px -4px rgb(51, 204, 204);
+        box-shadow: 0px 0px 65px -4px rgb(51, 204, 204);
+    }
+    50%{
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(0, 153, 255);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(0, 153, 255);
+        box-shadow: 0px 0px 50px -4px rgb(0, 153, 255);
+    }
+    75%{
+        -webkit-box-shadow: 0px 0px 65px -4px rgb(0, 204, 153);
+        -moz-box-shadow: 0px 0px 65px -4px rgb(0, 204, 153);
+        box-shadow: 0px 0px 65px -4px rgb(0, 204, 153);
+    }
+    100%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(102, 204, 255);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(102, 204, 255);
+        box-shadow: 0px 0px 72px -4px rgb(102, 204, 255);
+    }
+}
+
+
+@keyframes shadowEffect3{
+        0%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(255, 0, 0);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(255, 0, 0);
+        box-shadow: 0px 0px 72px -4px rgb(255, 0, 0);
+    }
+    25%{
+        -webkit-box-shadow: 0px 0px 65px -4px rgb(153, 0, 51);
+        -moz-box-shadow: 0px 0px 65px -4px rgb(153, 0, 51);
+        box-shadow: 0px 0px 65px -4px rgb(153, 0, 51);
+    }
+    50%{
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(255, 51, 0);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(255, 51, 0);
+        box-shadow: 0px 0px 50px -4px rgb(255, 51, 0);
+    }
+    75%{
+        -webkit-box-shadow: 0px 0px 65px -4px rgb(255, 80, 80);
+        -moz-box-shadow: 0px 0px 65px -4px rgb(255, 80, 80);
+        box-shadow: 0px 0px 65px -4px rgb(255, 80, 80);
+    }
+    100%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(204, 0, 102);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(204, 0, 102);
+        box-shadow: 0px 0px 72px -4px rgb(204, 0, 102);
     }
 }
