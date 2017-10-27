@@ -52,19 +52,22 @@ h1{
     background: #000000;
     border-radius: 10%;
     text-align: center;
+    animation: shadowEffect 4s linear infinite;
 }
 
 .purple{
     background-color: #443266;
 }
 
-.yellow{
+.brown{
     background-color: #402824;
 }
+
+.orange{
+    background-color: #751908;
+}
 .boxshadow{
--webkit-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
--moz-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
+    
 }
 
 .boxshadow2{
@@ -409,3 +412,32 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
 }
 
 
+
+
+@keyframes shadowEffect{
+    0%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
+        -moz-box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
+        box-shadow: 0px 0px 72px -4px rgba(107,63,252,1);
+    }
+    25%{
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
+        box-shadow: 0px 0px 50px -4px rgb(51, 51, 204);
+    }
+    50%{
+        -webkit-box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
+        -moz-box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
+        box-shadow: 0px 0px 40px -4px rgb(153, 51, 255);
+    }
+    75%{
+        -webkit-box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
+        -moz-box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
+        box-shadow: 0px 0px 50px -4px rgb(204, 0, 255);
+    }
+    100%{
+        -webkit-box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
+        -moz-box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
+        box-shadow: 0px 0px 72px -4px rgb(166, 77, 255);
+    }
+}
