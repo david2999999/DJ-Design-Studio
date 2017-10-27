@@ -24,8 +24,8 @@ h1{
     background-position: 50% 50%;
     object-fit: cover;
     margin-bottom: 50px;
-    border-radius: 10%;
     transition: 1s ease;
+    border-radius: 10%;
     opacity: 1;
 }
 
@@ -39,18 +39,43 @@ h1{
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.item{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 300px;
+    max-width: 620px;
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+div.item * {
+  transition: all .35s ease-in-out;
+}
+
 .overlay {
-  transition: 1s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  width: 96%;
-  height: 100%;
+  width: 100%;
+  height: 500px;
   border-radius: 10%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
+div.item:hover .overlay {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+
 
 .container3:hover .overlay {
     opacity: 1;
@@ -134,9 +159,9 @@ h1{
 box-shadow: 0px 0px 50px 5px rgba(245,46,49,1);
 }
 .boxshadow{
--webkit-box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
--moz-box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
-box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
+    -webkit-box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
+    -moz-box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
+    box-shadow: 0px 0px 36px 3px rgba(57,247,124,1);
 }
 
 .boxshadow2{
@@ -248,6 +273,8 @@ box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);
 .thumbnail .caption {
       color: white;
 }
+
+
 
 
 hr {
