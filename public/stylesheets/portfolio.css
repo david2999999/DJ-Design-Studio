@@ -282,7 +282,6 @@ div.item:hover .overlay {
 
 .load_effect{
     opacity: 0;
-    margin: auto;
     margin-top: 100px;
     animation: 1s slidefade 1s forwards;
 }
@@ -295,6 +294,7 @@ div.item:hover .overlay {
 }
 
 hr {
+
   border : 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
