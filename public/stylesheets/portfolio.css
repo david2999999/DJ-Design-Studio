@@ -214,6 +214,7 @@ div.item:hover .overlay {
       margin-top: 1%;
       transition : border-color 0.5s;
       transition: box-shadow 1s ease;
+            margin-left: 1%;
 }
 .btn-default:hover{
       background-color: transparent;
@@ -222,6 +223,7 @@ div.item:hover .overlay {
       -webkit-box-shadow: 0px 0px 52px 1px rgba(0,237,255,1);
       -moz-box-shadow: 0px 0px 52px 1px rgba(0,237,255,1);
       box-shadow: 0px 0px 52px 1px rgba(0,237,255,1);
+
 }
 .btn-default:active {
   background-color: transparent;
@@ -285,6 +287,7 @@ div.item:hover .overlay {
     opacity: 0;
     margin-top: 100px;
     animation: 1s slidefade 1s forwards;
+                z-index: 5;
 }
 
 @keyframes slidefade{
@@ -295,32 +298,25 @@ div.item:hover .overlay {
     }
 }
 
-@keyframes hr{
-    100%{
-        border-style:solid;
-        border : 0;
-        height: 1px;
-        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#aeecfc), to(rgba(0, 0, 0, 0)));
-        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-        border-bottom: 1px solid transparent;
-    }
-}
-
+/*@keyframes hr2{*/
+/*    100%{*/
+/*        border-style:solid;*/
+/*        border : 0;*/
+/*        height: 1px;*/
+/*        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));*/
+/*        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));*/
+/*        border-bottom: 1px solid transparent;*/
+/*    }*/
+/*}*/
 hr {
     border-style:solid;
   border : 0;
   height: 1px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#aeecfc), to(rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
-  border: 1px solid transparent;
-  animation: hr .2s linear infinite;
-  
--webkit-transform-style: preserve-3d;
--webkit-backface-visibility: hidden;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#aeecfc), to(rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
+    border: 1px solid transparent;
 }
 
 .no-flickr {
