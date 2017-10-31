@@ -303,19 +303,13 @@ hr {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #aeecfc, rgba(0, 0, 0, 0));
+  border-bottom: 1px solid #000000;
   
   
 -webkit-transform-style: preserve-3d;
 -webkit-backface-visibility: hidden;
 }
 
-.no-flickr {
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-} 
 
 
 
