@@ -45,6 +45,10 @@ app.get("/TWDB/to-do-list",function(req, res){
     res.render("TWDB/to-do-list");
 });
 
+app.get("/TWDB/Mountain-Climb",function(req, res){
+    res.render("TWDB/mountain-climb");
+});
+
 ///////////////////////////
 // RESTful ROUTING BLOG //
 ///////////////////////////
