@@ -1,7 +1,12 @@
+
 body{
       /*font-family: "Times New Roman", Times, serif;*/
       font-family: lobster;
       min-width: 1000px;
+    /*-webkit-transform: scale(0.8);*/
+    /*   -moz-transform: scale(0.8);*/
+    /*        transform: scale(0.8);*/
+    /*   transform-origin: 0 0;*/
 }
 
 p{
@@ -54,25 +59,6 @@ h1{
     text-align: center;
     animation: shadowEffect 4s linear infinite;
 }
-
-.star{
-    height: 30px;
-    width: 30px;
-    -webkit-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);
-    -moz-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);
-    box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);   
-}
-/*.boxshadow2{*/
-/* -webkit-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);*/
-/*-moz-box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);*/
-/*box-shadow: 0px 0px 36px 3px rgba(245,228,73,1);   */
-/*}*/
-/*.boxshadow3{*/
-/*    -webkit-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
-/*-moz-box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
-/*box-shadow: 0px 0px 36px 3px rgba(247,107,46,1);*/
-/*}*/
-
 
 div.item * {
   transition: all .5s ease-in-out;
@@ -138,7 +124,7 @@ div.item:hover .overlay {
 .pageTwo{
       background: url("../img/img5.jpg");
       background-size: cover;
-      height: 1600px;
+      height: 1200px;
       margin-top: -5%;
       padding-top: 6%;
 }
@@ -170,13 +156,17 @@ div.item:hover .overlay {
       color: white;
       opacity: .9;
       padding: 10px;
-      width: 50%;
+      width: 45%;
       margin: auto;
       border-radius: 15%;
     animation: shadowEffect2 3s linear infinite;
 }
 .discription{
     animation: shadowEffect3 3s linear infinite;
+}
+
+.discription p{
+    font-size: 2.4em;
 }
 
 
@@ -194,7 +184,7 @@ div.item:hover .overlay {
 }
 
 .block h1{
-      font-size: 5em;
+      font-size: 4em;
 }
 
 .block2{
@@ -210,7 +200,7 @@ div.item:hover .overlay {
       background-color: transparent;
       border-color: #45d5f9;
       color: white;
-      font-size: 1.8em;
+      font-size: 1.5em;
       margin-top: 1%;
       transition : border-color 0.5s;
       transition: box-shadow 1s ease;
@@ -234,7 +224,7 @@ div.item:hover .overlay {
         background-color:	#404040;
         color:#ffffff;
         border-radius:0;
-        font-size: 1.7em;
+        font-size: 1.5em;
         font-family: lobster;
         opacity: .9;
           margin-bottom: 10%;
@@ -381,16 +371,18 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
   margin-left: auto;
 }
 
-@media (max-width: 360px){
+@media (min-width: 360px){
     /*.containermargin{*/
     /*    padding-top: 30%;*/
     /*}*/
+
+    
     .pageThree{
         height: 3200;
     }
 
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .container2 {
       width: 800px;
     }
@@ -398,7 +390,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
         height: 1830px;
     }
     .pageTwo{
-      height: 1800px;
+      height: 1100px;
     }
     .containermargin{
         padding-top: 20%;
@@ -407,7 +399,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
         width: 49%;
     }
     .pageThree{
-        height: 3200px;
+        height: 3850px;
     }
 
 }
@@ -418,7 +410,11 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
       .containermargin{
         padding-top: 20%;
     }
-        
+    
+    .pageTwo{
+      height: 1100px;
+    }
+    
     .col-md-4{
         width: 50%;
     }
@@ -434,6 +430,10 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
     .containermargin{
         padding-top: 20%;
     }
+    .pageTwo{
+      height: 1000px;
+    }
+    
     .col-md-4{
         width: 33.33%;
     }
