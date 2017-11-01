@@ -45,7 +45,7 @@ app.get("/TWDB/to-do-list",function(req, res){
     res.render("TWDB/to-do-list");
 });
 
-app.get("/TWDB/Mountain-Climb",function(req, res){
+app.get("/TWDB/Mountain-Travel",function(req, res){
     res.render("TWDB/mountain-travel");
 });
 
