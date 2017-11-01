@@ -381,16 +381,16 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
   margin-left: auto;
 }
 
-@media (min-width: 375px){
-    .containermargin{
-        padding-top: 30%;
-    }
+@media (max-width: 360px){
+    /*.containermargin{*/
+    /*    padding-top: 30%;*/
+    /*}*/
     .pageThree{
-        height: 3300px;
+        height: 3200;
     }
 
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container2 {
       width: 800px;
     }
@@ -407,7 +407,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
         width: 49%;
     }
     .pageThree{
-        height: 3300px;
+        height: 3200px;
     }
 
 }
@@ -420,12 +420,13 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
     }
         
     .col-md-4{
-        width: 33.33%;
+        width: 50%;
     }
     .pageThree{
-        height: 2500px;
+        height: 3900px;
     }
 }
+
 @media (min-width: 1200px) {
     .container2 {
         width: 1500px;
@@ -433,9 +434,12 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
     .containermargin{
         padding-top: 20%;
     }
+    .col-md-4{
+        width: 33.33%;
+    }
     
     .pageThree{
-        height: 2500px;
+        height: 2400px;
     }
 }
 
