@@ -8,7 +8,7 @@ body{
 .nav-bar1{
     background-color: #000000 !important;
     padding: 0px;
-      border-bottom: 2px solid skyblue;
+      border-bottom: 2px solid #00A7CC;
 }
 
 .nav-bar2{
@@ -20,7 +20,8 @@ body{
 
 .nav-item{
     font-family: "Times New Roman", Georgia, Serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin-left: 20px;
 }
 
 .navbar .navbar-brand{
@@ -43,10 +44,50 @@ body{
     color:
 }
 
-.ml-5, .mx-5 {
-    margin-left: 22rem !important;
+.nav-bar2 .navbar-brand{
+      margin-left: 20rem;
+      margin-right: 5rem !important;
 }
 
 .btn{
       margin: 0 10px 0 5px;
+      line-height: 1;
+}
+
+/*==DROP DOWN DECOR==*/
+.navbar-dark .navbar-nav .nav-link{
+      color: white;
+}
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item{
+      font-size: 1.2em;
+}
+
+/*===MEDIA QUERIES==*/
+@media (max-width: 1200px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 18rem !important;
+      }
+}
+
+
+@media (max-width: 550px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 10rem !important;
+      }
+}
+
+@media (max-width: 500px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 11rem !important;
+      }
 }
