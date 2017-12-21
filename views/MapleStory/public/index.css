@@ -69,25 +69,73 @@ li.dropdown:hover > .dropdown-menu {
 }
 
 .dropdown-item{
-      font-size: 1.2em;
+      font-size: 1.35em;
+      color: white;
+      background: rgba(51,51,51,0.9);
+      border-bottom: 1px gray solid;
 }
 
+.dropdown-item:hover{
+      background: rgba(51,51,51,0.9);
+      color: #e64120;
+}
+
+/*==FONT AWESOME ICONS==*/
+.fa-facebook-square, .fa-twitter-square, .fa-youtube-square{
+      color: rgba(147,206,222,1);
+      padding: 11px 0 0 20px;
+      margin-bottom: 10px;
+}
 /*===MEDIA QUERIES==*/
-@media (max-width: 1200px){
+@media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
-            margin-left: 18rem !important;
+            margin-left: 8rem !important;
       }
 }
 
+@media (max-width: 1200px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 10rem !important;
+      }
+}
+@media (max-width: 1106px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 1.5em !important;
+      }
+}
+
+@media (max-width: 1016px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 1.5rem !important;
+      }
+}
+
+@media (max-width: 989px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 26rem !important;
+      }
+}
+
+@media (max-width: 900px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+}
 
 @media (max-width: 550px){
       .nav-bar2 .navbar-brand{
-            margin-left: 10rem !important;
+            margin-left: 9rem !important;
       }
 }
 
 @media (max-width: 500px){
       .nav-bar2 .navbar-brand{
-            margin-left: 11rem !important;
+            margin-left: 8rem !important;
+      }
+}
+
+@media (max-width: 414px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 20rem !important;
       }
 }
