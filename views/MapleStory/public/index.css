@@ -2,11 +2,12 @@ body{
     /*background-image: url("../image/cover.jpg");*/
     /*background-repeat: no-repeat;*/
     height: 100vh;
+    /*min-width: 1200px;*/
 }
 
 .content{
       background-image: url("../image/bg_ghosted_grey.jpg");
-      height: 1200px;
+      height: 1800px;
       border-top: black 7px solid;
       background-size: cover;
 }
@@ -102,32 +103,47 @@ li.dropdown:hover > .dropdown-menu {
       width: 100%;
       height: auto;
 }
-.caption{
+.caption, .caption2{
       background-color: white !important;
       font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
       height: 180px;
       padding-bottom: 10px;
 }
 
-.caption a{
+.caption a, .caption2 a{
       text-decoration: none;
       color: #2b2725;
 }
 
-.caption h3{
+.caption h3, .caption2 h3{
       font-weight: 700;
       padding:10px 0 0 20px;
       font-size: 25px;
       word-wrap: break-word;
 }
-.caption h3:hover{
-      color: #e64120;
+.caption h3:hover, .caption2 h3:hover{
+      color:  #0099cc;
 }
-.caption p{
+.caption p , .caption2 p{
       padding:10px 20px 20px 20px;
       font-size: 18px;
       line-height: 1.1;
       word-wrap: break-word;
+      color: #2b2725;
+}
+
+.caption2 {
+      color: #777;
+      text-align: left;
+      float: left;
+      background: white;
+      height: 268px;
+      width: 100%;
+      padding: 5px 10px 0 20px;
+}
+
+h3{
+      font-weight: 1000;
 }
 
 .timeStamp{
@@ -153,6 +169,15 @@ li.dropdown:hover > .dropdown-menu {
 .readMore a:hover{
       color: #0099cc;
 }
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.single{
+      padding-bottom: 15px;
+}
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
@@ -165,13 +190,17 @@ li.dropdown:hover > .dropdown-menu {
             margin-left: 10rem !important;
       }
 
-      .caption{
-            height: 200px;
+      .caption2{
+            height: 227px;
       }
 }
 @media (max-width: 1106px){
       .nav-bar2 .navbar-brand{
             margin-left: 1.5em !important;
+      }
+
+      .caption2{
+            height: 227px;
       }
 }
 
@@ -185,15 +214,24 @@ li.dropdown:hover > .dropdown-menu {
       .nav-bar2 .navbar-brand{
             margin-left: 26rem !important;
       }
-      .caption{
-            height: 210px;
+      .caption, .caption2{
+            height: 160px;
       }
       .thumbnail{
             padding-top: 10px;
       }
 
+      .padding-0{
+            padding-top: 0;
+            padding-bottom: 0;
+      }
+
       .content{
-            height: 2000px;
+            height: 3600px;
+      }
+
+      .caption2{
+            height: 200px;
       }
 }
 
@@ -201,21 +239,56 @@ li.dropdown:hover > .dropdown-menu {
       .nav-bar2 .navbar-brand{
             margin-left: 13rem !important;
       }
+      .caption{
+            height: 200px;
+      }
+
+      .caption2{
+            height: 200px;
+      }
 
 }
+
+@media (max-width: 800px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+
+}
+
+@media (max-width: 700px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+      .caption{
+            height: 220px;
+      }
+      .caption2{
+            height: 230px;
+      }
+
+}
+
 
 @media (max-width: 550px){
       .nav-bar2 .navbar-brand{
             margin-left: 9rem !important;
       }
+      .padding-0{
+            padding-right: 10px;
+            padding-left: 10px;
+      }
 
-
+      .caption2{
+            height: 280px;
+      }
 }
 
 @media (max-width: 500px){
       .nav-bar2 .navbar-brand{
             margin-left: 8rem !important;
       }
+
 
 }
 
@@ -224,4 +297,7 @@ li.dropdown:hover > .dropdown-menu {
             margin-left: 20rem !important;
       }
 
+      /*.thumbnail > img{
+            height: 200px;
+      }*/
 }
