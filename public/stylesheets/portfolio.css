@@ -1,12 +1,7 @@
 
 body{
-      /*font-family: "Times New Roman", Times, serif;*/
       font-family: lobster;
       min-width: 1000px;
-    /*-webkit-transform: scale(0.8);*/
-    /*   -moz-transform: scale(0.8);*/
-    /*        transform: scale(0.8);*/
-    /*   transform-origin: 0 0;*/
 }
 
 p{

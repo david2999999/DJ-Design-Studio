@@ -8,7 +8,13 @@ body{
       background-image: url("../image/bg_ghosted_grey.jpg");
       height: 1200px;
       border-top: black 7px solid;
+      background-size: cover;
 }
+
+p{
+      display: block;
+}
+
 /*============NAV BAR DECOR================*/
 .nav-bar1{
     background-color: #000000 !important;
@@ -37,9 +43,7 @@ body{
       margin: 0;
       font-weight: lighter;
 }
-.nav-item:hover{
-    color:
-}
+
 
 .nav-bar2 .navbar-brand{
       margin-left: 20rem;
@@ -52,6 +56,10 @@ body{
       line-height: 1;
 }
 
+.nex_logo{
+      height: 26px;
+      width: 91px;
+}
 /*==DROP DOWN DECOR==*/
 .navbar-dark .navbar-nav .nav-link{
       color: white;
@@ -97,7 +105,8 @@ li.dropdown:hover > .dropdown-menu {
 .caption{
       background-color: white !important;
       font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
-      height: 200px;
+      height: 180px;
+      padding-bottom: 10px;
 }
 
 .caption a{
@@ -121,7 +130,29 @@ li.dropdown:hover > .dropdown-menu {
       word-wrap: break-word;
 }
 
+.timeStamp{
+      left: 20px;
+      bottom: -15px;
+      font-family: "Titillium Web",arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      position: absolute;
+      padding-top: 10px;
+}
 
+.readMore{
+      position: absolute;
+      right: 20px;
+      bottom: -15px;
+      font-family: "Titillium Web",arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      padding-top: 10px;
+}
+
+.readMore a:hover{
+      color: #0099cc;
+}
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
@@ -132,6 +163,10 @@ li.dropdown:hover > .dropdown-menu {
 @media (max-width: 1200px){
       .nav-bar2 .navbar-brand{
             margin-left: 10rem !important;
+      }
+
+      .caption{
+            height: 200px;
       }
 }
 @media (max-width: 1106px){
@@ -150,28 +185,43 @@ li.dropdown:hover > .dropdown-menu {
       .nav-bar2 .navbar-brand{
             margin-left: 26rem !important;
       }
+      .caption{
+            height: 210px;
+      }
+      .thumbnail{
+            padding-top: 10px;
+      }
+
+      .content{
+            height: 2000px;
+      }
 }
 
 @media (max-width: 900px){
       .nav-bar2 .navbar-brand{
             margin-left: 13rem !important;
       }
+
 }
 
 @media (max-width: 550px){
       .nav-bar2 .navbar-brand{
             margin-left: 9rem !important;
       }
+
+
 }
 
 @media (max-width: 500px){
       .nav-bar2 .navbar-brand{
             margin-left: 8rem !important;
       }
+
 }
 
 @media (max-width: 414px){
       .nav-bar2 .navbar-brand{
             margin-left: 20rem !important;
       }
+
 }
