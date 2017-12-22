@@ -4,6 +4,11 @@ body{
     height: 100vh;
 }
 
+.content{
+      background-image: url("../image/bg_ghosted_grey.jpg");
+      height: 1200px;
+      border-top: black 7px solid;
+}
 /*============NAV BAR DECOR================*/
 .nav-bar1{
     background-color: #000000 !important;
@@ -25,14 +30,6 @@ body{
 }
 
 .navbar .navbar-brand{
-    font-size: 1.7rem;
-    font-family: "Times New Roman", Georgia, Serif;
-    /*padding: 0 50px 0 350px;*/
-    font-weight: bold;
-    background-repeat: no-repeat;
-}
-
-.navbar .navbar-brand{
       font-family: 'Jomhuria', cursive;
             /*font-size: 4em;*/
       letter-spacing: 2px;
@@ -47,6 +44,7 @@ body{
 .nav-bar2 .navbar-brand{
       margin-left: 20rem;
       margin-right: 5rem !important;
+      padding-bottom: 3px;
 }
 
 .btn{
@@ -86,6 +84,44 @@ li.dropdown:hover > .dropdown-menu {
       padding: 11px 0 0 20px;
       margin-bottom: 10px;
 }
+
+/*===CONTENT CSS==*/
+.content-description{
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-weight: 600;
+}
+.thumbnail img{
+      width: 100%;
+      height: auto;
+}
+.caption{
+      background-color: white !important;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      height: 200px;
+}
+
+.caption a{
+      text-decoration: none;
+      color: #2b2725;
+}
+
+.caption h3{
+      font-weight: 700;
+      padding:10px 0 0 20px;
+      font-size: 25px;
+      word-wrap: break-word;
+}
+.caption h3:hover{
+      color: #e64120;
+}
+.caption p{
+      padding:10px 20px 20px 20px;
+      font-size: 18px;
+      line-height: 1.1;
+      word-wrap: break-word;
+}
+
+
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
