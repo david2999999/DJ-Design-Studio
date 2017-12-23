@@ -195,11 +195,12 @@ h3{
 .community-news{
       background: url("../image/community_img.png") no-repeat 50% 0;
       background-size: cover;
+      border-bottom: 1px darkred solid;
 }
 
 .comm-content{
       height: auto;
-      margin-bottom: 100px;
+      margin-bottom: 30px;
       background-color:rgba(0, 0, 0, 0.6);
       border-radius: 10px;
 }
@@ -269,6 +270,72 @@ h3{
       text-decoration: none;
       color: #0099cc;
 }
+
+.btn-xlarge2{
+      padding: 1% 7.5%;
+      font-size: 23px;
+      line-height: normal;
+      border-radius: 4px;
+      border: white 2px solid;
+      color: white;
+      font-family: "Titillium Web",arial,sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+}
+
+/*===========FOOTER CSS==========*/
+.footer{
+      background-color: #161D1A;
+}
+
+.link-list{
+      list-style: none;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-top: 40px;
+      margin-bottom: 20px;
+}
+
+.link-item{
+      display: inline-block;
+      color: white;
+      border-right: white 2px solid;
+      padding: 0 10px 0 10px;
+      font-size: 15px;
+      line-height: 1.2;
+      font-weight: 400;
+}
+
+.link-item2{
+      display: inline-block;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+      font-weight: 400;
+}
+.link-item2 a, .link-item a{
+      color: white;
+      text-decoration: none;
+}
+
+.link-item2 a:hover , .link-item a:hover{
+      text-decoration: none;
+      color: #0099cc;
+}
+
+.footer-copy{
+      font-size: 13px;
+      font-weight: 500;
+      color: white;
+}
+
+.nex_logo_footer{
+      height: 20px;
+      width: 71px;
+}
+
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
@@ -280,9 +347,7 @@ h3{
       .nav-bar2 .navbar-brand{
             margin-left: 10rem !important;
       }
-      /*.content{
-            height: 1550px;
-      }*/
+
       .caption2{
             height: 227px;
       }
@@ -291,9 +356,7 @@ h3{
       .nav-bar2 .navbar-brand{
             margin-left: 1.5em !important;
       }
-      /*.content{
-            height: 1550px;
-      }*/
+
       .caption2{
             height: 227px;
       }
@@ -421,7 +484,7 @@ h3{
 
 @media (max-width: 414px){
       .nav-bar2 .navbar-brand{
-            margin-left: 0rem !important;
+            margin-left: 20px !important;
       }
 }
 
