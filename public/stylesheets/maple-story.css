@@ -6,7 +6,7 @@ body{
 }
 
 .content{
-      background: url("../image/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("/img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       border-top: black 7px solid;
       background-size: cover;
 }
@@ -193,7 +193,7 @@ h3{
 
 /*COMMUNITY NEWS CSS*/
 .community-news{
-      background: url("../image/community_img.png") no-repeat 50% 0;
+      background: url("/img/MSimg/community_img.png") no-repeat 50% 0;
       background-size: cover;
       border-bottom: 1px darkred solid;
 }

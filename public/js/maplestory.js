@@ -1,4 +1,5 @@
-$( document ).ready(function() {
+/*global $*/
+$(document).ready(function() {
     var date = new Date(2017, 11, 22);
     $(".timeStamp").html(timeSince(date) + " ago");
 });

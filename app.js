@@ -150,7 +150,13 @@ app.get("/FCC/wiki",function(req, res) {
 
 
 
-    
+/////////////////////
+//MAPLESTORY CLONE //
+/////////////////////
+app.get("/maplestory",function(req, res) {
+    res.render("MapleStory/index");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("DJ Design Studio has started");
 });
