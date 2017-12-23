@@ -112,28 +112,24 @@ div.item:hover .overlay {
 }
 
 .pageOne{
-      background: url("../img/img.jpg");
+      background: url("../img/img.jpg") no-repeat 50% 0;
       background-size: cover;
-      height: 1400px;
 }
 .pageTwo{
-      background: url("../img/img5.jpg");
+      background: url("../img/img5.jpg") no-repeat 50% 0;
       background-size: cover;
-      height: 1200px;
       margin-top: -5%;
       padding-top: 6%;
 }
 .pageThree{
-      background: url("../img/img3.jpg");
+      background: url("../img/img3.jpg") no-repeat 50% 0;
       background-size: cover;
-      height: 3300px;
       padding-top: 6%;
 }
 .pageFour{
       background: url("../img/img7.jpg");
       background-size: cover;
       height: 300px;
-
 }
 
 .rowstyle{
@@ -176,6 +172,7 @@ div.item:hover .overlay {
 
 .containermargin{
     padding-top: 15%;
+    padding-bottom: 670px;
 }
 
 .block h1{
@@ -185,7 +182,7 @@ div.item:hover .overlay {
 .block2{
       background-color: #2a2a2a;
       opacity: .9;
-      margin-bottom: 20px;
+      margin-bottom: 200px;
       font-size: 18px;
 }
 
@@ -366,56 +363,65 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
   margin-left: auto;
 }
 
-@media (min-width: 360px){
-    /*.containermargin{*/
-    /*    padding-top: 30%;*/
-    /*}*/
-
-    
-    .pageThree{
-        height: 3200;
-    }
-
-}
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     .container2 {
       width: 800px;
     }
-    .pageOne{
-        height: 1830px;
-    }
-    .pageTwo{
-      height: 1100px;
-    }
+
     .containermargin{
         padding-top: 20%;
     }
     .col-sm-6{
         width: 49%;
     }
-    .pageThree{
-        height: 3850px;
+}
+
+@media (min-width: 550px) {
+    .container2 {
+      width: 800px;
     }
 
+    .containermargin{
+        padding-top: 20%;
+    }
+    .col-sm-6{
+        width: 49%;
+    }
 }
+
+
+@media (min-width: 768px) {
+    .container2 {
+      width: 800px;
+    }
+
+    .containermargin{
+        padding-top: 20%;
+    }
+    .col-sm-6{
+        width: 49%;
+    }
+}
+
 @media (min-width: 992px) {
   .container2 {
     width: 900px;
   }
       .containermargin{
         padding-top: 20%;
+
     }
     
-    .pageTwo{
-      height: 1100px;
-    }
+    /*.pageTwo{*/
+    /*  height: 1100px;*/
+    /*}*/
     
     .col-md-4{
         width: 50%;
     }
-    .pageThree{
-        height: 3900px;
-    }
+    /*.pageThree{*/
+    /*    height: 3900px;*/
+    /*}*/
 }
 
 @media (min-width: 1200px) {
@@ -425,17 +431,17 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
     .containermargin{
         padding-top: 20%;
     }
-    .pageTwo{
-      height: 1000px;
-    }
+    /*.pageTwo{*/
+    /*  height: 1000px;*/
+    /*}*/
     
     .col-md-4{
         width: 33.33%;
     }
     
-    .pageThree{
-        height: 2400px;
-    }
+    /*.pageThree{*/
+    /*    height: 2400px;*/
+    /*}*/
 }
 
 
