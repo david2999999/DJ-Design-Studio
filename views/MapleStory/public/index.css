@@ -6,8 +6,7 @@ body{
 }
 
 .content{
-      background-image: url("../image/bg_ghosted_grey.jpg");
-      height: 1800px;
+      background: url("../image/bg_ghosted_grey.jpg") no-repeat 50% 0;
       border-top: black 7px solid;
       background-size: cover;
 }
@@ -61,6 +60,7 @@ p{
       height: 26px;
       width: 91px;
 }
+
 /*==DROP DOWN DECOR==*/
 .navbar-dark .navbar-nav .nav-link{
       color: white;
@@ -110,7 +110,7 @@ li.dropdown:hover > .dropdown-menu {
       padding-bottom: 10px;
 }
 
-.caption a, .caption2 a{
+.caption a, .caption2 a, .caption3 a{
       text-decoration: none;
       color: #2b2725;
 }
@@ -121,7 +121,7 @@ li.dropdown:hover > .dropdown-menu {
       font-size: 25px;
       word-wrap: break-word;
 }
-.caption h3:hover, .caption2 h3:hover{
+.caption h3:hover, .caption2 h3:hover, .caption3 h3:hover{
       color:  #0099cc;
 }
 .caption p , .caption2 p{
@@ -136,7 +136,6 @@ li.dropdown:hover > .dropdown-menu {
       color: #777;
       text-align: left;
       float: left;
-      background: white;
       height: 268px;
       width: 100%;
       padding: 5px 10px 0 20px;
@@ -166,7 +165,7 @@ h3{
       padding-top: 10px;
 }
 
-.readMore a:hover{
+.readMore a:hover, .readMore2 a:hover{
       color: #0099cc;
 }
 
@@ -177,6 +176,98 @@ h3{
 
 .single{
       padding-bottom: 15px;
+}
+
+.btn-xlarge {
+      padding: 1% 7.5%;
+      font-size: 23px;
+      line-height: normal;
+      border-radius: 4px;
+      border: black 2px solid;
+      color: black;
+      font-family: "Titillium Web",arial,sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+}
+
+/*COMMUNITY NEWS CSS*/
+.community-news{
+      background: url("../image/community_img.png") no-repeat 50% 0;
+      background-size: cover;
+}
+
+.comm-content{
+      height: auto;
+      margin-bottom: 100px;
+      background-color:rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+}
+.comm-description{
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-weight: 700;
+      color: white;
+      font-size: 28px;
+      line-height: 1.4;
+
+}
+.comm-content .thumbnail{
+      padding: 20px;
+}
+
+.caption3{
+      background: transparent !important;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      height: 192px;
+      color: white;
+      /*padding-bottom: 10px;*/
+}
+
+.community-news .caption3 h3{
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      color: white;
+      font-size: 18px;
+      padding: 0;
+      font-weight: bold;
+}
+.community-news .caption3 p{
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      color: white;
+      font-size: 17px;
+      padding: 0;
+      /*font-weight: bold;*/
+}
+
+.timeStamp2{
+      left: 20px;
+      bottom: 23px;
+      font-family: "Titillium Web",arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 1px;
+      position: absolute;
+      padding-top: 10px;
+      font-weight: normal;
+}
+
+.readMore2{
+      position: absolute;
+      right: 20px;
+      bottom: 23px;
+      font-family: "Titillium Web",arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 16px;
+      padding-top: 10px;
+      font-weight: normal;
+}
+
+.readMore2 a{
+      text-decoration: none;
+      color: white;
+}
+
+.caption3 a h3:hover {
+      text-decoration: none;
+      color: #0099cc;
 }
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
@@ -189,24 +280,28 @@ h3{
       .nav-bar2 .navbar-brand{
             margin-left: 10rem !important;
       }
-
+      /*.content{
+            height: 1550px;
+      }*/
       .caption2{
             height: 227px;
       }
 }
-@media (max-width: 1106px){
+@media (max-width: 1116px){
       .nav-bar2 .navbar-brand{
             margin-left: 1.5em !important;
       }
-
+      /*.content{
+            height: 1550px;
+      }*/
       .caption2{
             height: 227px;
       }
 }
 
-@media (max-width: 1016px){
+@media (max-width: 1020px){
       .nav-bar2 .navbar-brand{
-            margin-left: 1.5rem !important;
+            margin-left: 1.6rem !important;
       }
 }
 
@@ -226,21 +321,34 @@ h3{
             padding-bottom: 0;
       }
 
-      .content{
-            height: 3600px;
-      }
-
       .caption2{
             height: 200px;
       }
 }
 
+
 @media (max-width: 900px){
       .nav-bar2 .navbar-brand{
             margin-left: 13rem !important;
       }
+
       .caption{
+            height: 170px;
+      }
+
+      .caption2{
             height: 200px;
+      }
+
+}
+
+@media (max-width: 880px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+
+      .caption{
+            height: 170px;
       }
 
       .caption2{
@@ -256,12 +364,19 @@ h3{
 
 }
 
-@media (max-width: 700px){
+@media (max-width: 750px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+
+}
+
+@media (max-width: 710px){
       .nav-bar2 .navbar-brand{
             margin-left: 13rem !important;
       }
       .caption{
-            height: 220px;
+            height: 240px;
       }
       .caption2{
             height: 230px;
@@ -269,24 +384,36 @@ h3{
 
 }
 
+@media (max-width: 670px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 13rem !important;
+      }
+
+}
+
 
 @media (max-width: 550px){
       .nav-bar2 .navbar-brand{
-            margin-left: 9rem !important;
+            margin-left: 5rem !important;
       }
       .padding-0{
             padding-right: 10px;
             padding-left: 10px;
       }
 
-      .caption2{
+      .caption{
             height: 280px;
       }
+      .caption2{
+            height: 320px;
+      }
+
+
 }
 
 @media (max-width: 500px){
       .nav-bar2 .navbar-brand{
-            margin-left: 8rem !important;
+            margin-left: 4rem !important;
       }
 
 
@@ -294,10 +421,12 @@ h3{
 
 @media (max-width: 414px){
       .nav-bar2 .navbar-brand{
-            margin-left: 20rem !important;
+            margin-left: 0rem !important;
       }
+}
 
-      /*.thumbnail > img{
-            height: 200px;
-      }*/
+@media (max-width: 300px){
+      .nav-bar2 .navbar-brand{
+            margin-left: 0rem !important;
+      }
 }
