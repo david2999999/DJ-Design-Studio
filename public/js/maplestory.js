@@ -1,6 +1,6 @@
 /*global $*/
 $(document).ready(function() {
-    var date = new Date(2017, 11, 22);
+    var date = new Date(2017, 11, 21);
     $(".timeStamp").html(timeSince(date) + " ago");
 });
 
