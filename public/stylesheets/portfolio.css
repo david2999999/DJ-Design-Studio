@@ -477,7 +477,7 @@ blockquote:hover{ border-left: 5px solid #2df4ff;}
 
 
 @keyframes shadowEffect2{
-        0%{
+    0%{
         -webkit-box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
         -moz-box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
         box-shadow: 0px 0px 72px -4px rgb(0, 153, 204);
