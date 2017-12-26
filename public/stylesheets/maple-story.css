@@ -1,18 +1,22 @@
 body{
-    /*background-image: url("../image/cover.jpg");*/
+    /*background-image: url("../img/MSimg/cover.jpg");*/
     /*background-repeat: no-repeat;*/
     height: 100vh;
     /*min-width: 1200px;*/
 }
 
 .content{
-      background: url("/img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       border-top: black 7px solid;
       background-size: cover;
 }
 
 p{
       display: block;
+}
+
+h1{
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 /*============NAV BAR DECOR================*/
@@ -39,7 +43,7 @@ p{
       font-family: 'Jomhuria', cursive;
             /*font-size: 4em;*/
       letter-spacing: 2px;
-      padding: 0;
+      padding-bottom: 2px;
       margin: 0;
       font-weight: lighter;
 }
@@ -56,10 +60,6 @@ p{
       line-height: 1;
 }
 
-.nex_logo{
-      height: 26px;
-      width: 91px;
-}
 
 /*==DROP DOWN DECOR==*/
 .navbar-dark .navbar-nav .nav-link{
@@ -193,7 +193,7 @@ h3{
 
 /*COMMUNITY NEWS CSS*/
 .community-news{
-      background: url("/img/MSimg/community_img.png") no-repeat 50% 0;
+      background: url("../img/MSimg/community_img.png") no-repeat 50% 0;
       background-size: cover;
       border-bottom: 1px darkred solid;
 }
@@ -336,6 +336,126 @@ h3{
       width: 71px;
 }
 
+/*=====GAMEHUB CSS======*/
+.content-title{
+      background: url("../img/MSimg/gamehub-bg.jpg") no-repeat 50% 0;
+      background-size: cover;
+      /*border-bottom: 3px solid black;*/
+}
+
+.bottom-border img{
+      width: 100%;
+      height: auto;
+}
+
+.title-text{
+      font-size: 54px;
+      color: #222;
+      font-weight: 900;
+      text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
+      padding: 150px 0 120px 0px;
+      padding-left: 20%;
+      margin-bottom: 0;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.title-text2{
+      font-size: 30px;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-weight: 900;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
+}
+.game-hub-content{
+      background: url("../img/MSimg/bg_ghosted_grey2.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+.game-hub-content-item{
+      background: url("../img/MSimg/gamehub.jpg") no-repeat 50% 0;
+      background-size: cover;
+      margin-bottom: 30px;
+}
+
+.game-hub-content-item2{
+      background: url("../img/MSimg/gamehub2.jpg") no-repeat 50% 0;
+      background-size: cover;
+      margin-bottom: 30px;
+}
+
+.game-hub-content-item3{
+      background: url("../img/MSimg/gamehub3.jpg") no-repeat 50% 0;
+      background-size: cover;
+      margin-bottom: 30px;
+}
+.game-hub-list-title{
+      font-size: 28px;
+      color: white;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-weight: 400;
+      padding-left: 40px;
+      padding-top: 30px;
+}
+
+.game-hub-description{
+      font-size: 20px;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-weight: normal;
+      padding: 0px 40px 10px 40px;
+      color: white;
+      background-color:rgba(0, 0, 0, 0.1);
+}
+
+.btn-xlarge3{
+      padding: 3% 10%;
+      font-size: 22px;
+      /*line-height: normal;*/
+      letter-spacing: 1px;
+      border-radius: 4px;
+      border: white 2px solid;
+      color: white;
+      font-family: "Titillium Web",arial,sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+}
+
+.game-hub-btn{
+      margin: 0px 0px 40px 40px;
+      z-index: 1;
+}
+
+.gamehub-item1{
+      background: url("../img/MSimg/gamehub-bottom.jpg") no-repeat 50% 0;
+      background-size: cover;
+      margin-bottom: 20px;
+      height: 200px;
+}
+.gamehub-item2{
+      background: url("../img/MSimg/gamehub-bottom2.jpg") no-repeat 50% 0;
+      background-size: cover;
+      height: 200px;
+      margin-bottom: 20px;
+}
+.gamehub-item3{
+      background: url("../img/MSimg/gamehub-bottom3.jpg") no-repeat 50% 0;
+      background-size: cover;
+      height: 200px;
+      margin-bottom: 80px;
+}
+
+.gamehub-item-title{
+      font-size: 24px;
+      color: white;
+      padding: 70px 0 80px 30px;
+}
+
+.gamehub-bottom-item a:hover{
+      text-decoration: none;
+}
+
+.game-hub-content-item button:hover, .game-hub-content-item2 button:hover , .game-hub-content-item3 button:hover{
+      cursor: pointer;
+}
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
@@ -368,7 +488,8 @@ h3{
       }
 }
 
-@media (max-width: 989px){
+@media (max-width: 991px){
+      /*===INDEX MEDIA QUERY===*/
       .nav-bar2 .navbar-brand{
             margin-left: 26rem !important;
       }
@@ -387,6 +508,8 @@ h3{
       .caption2{
             height: 200px;
       }
+
+
 }
 
 
