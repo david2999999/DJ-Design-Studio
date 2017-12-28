@@ -19,6 +19,13 @@ h1{
       font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
+.margin-bottom{
+      padding-bottom: 80px;
+}
+
+.border-left, .border-right{
+      width: 300px;
+}
 /*============NAV BAR DECOR================*/
 .nav-bar1{
     background-color: #000000 !important;
@@ -145,7 +152,7 @@ h3{
       font-weight: 1000;
 }
 
-.timeStamp{
+.timeStamp, .timeStamp3{
       left: 20px;
       bottom: -15px;
       font-family: "Titillium Web",arial,sans-serif;
@@ -456,6 +463,43 @@ h3{
 .game-hub-content-item button:hover, .game-hub-content-item2 button:hover , .game-hub-content-item3 button:hover{
       cursor: pointer;
 }
+
+/*====NEWS HUB CSS======*/
+.news-hub-content-bg{
+      background: url("../img/MSimg/newshub-bg.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+
+.news-hub-title{
+      font-size: 54px;
+      color: #222;
+      font-weight: 900;
+      text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
+      padding: 150px 0 120px 0px;
+      padding-left: 75%;
+      margin-bottom: 0;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.news-hub-content{
+      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+
+.news-hub-content-list{
+      background: url("../img/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
+      background-size: cover
+}
+
+.news-hub-content-list  h1{
+      font-size: 40px;
+      color: white;
+      font-weight: 900;
+}
+
+.news-hub-content-list-extend{
+      background-color: black
+}
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
@@ -574,7 +618,9 @@ h3{
       .nav-bar2 .navbar-brand{
             margin-left: 13rem !important;
       }
-
+      .border-left, .border-right{
+            width: 200px;
+      }
 }
 
 
@@ -609,10 +655,15 @@ h3{
       .nav-bar2 .navbar-brand{
             margin-left: 20px !important;
       }
+
+      .border-left, .border-right{
+            width: 150px;
+      }
 }
 
 @media (max-width: 300px){
       .nav-bar2 .navbar-brand{
             margin-left: 0rem !important;
       }
+
 }
