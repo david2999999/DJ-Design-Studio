@@ -165,6 +165,9 @@ app.get("/maplestory/news",function(req, res) {
     res.render("MapleStory/newshub");
 });
 
+app.get("/maplestory/updates",function(req, res) {
+    res.render("MapleStory/gameupdates");
+});
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("DJ Design Studio has started");
