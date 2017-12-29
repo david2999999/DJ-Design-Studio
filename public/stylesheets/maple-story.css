@@ -23,9 +23,14 @@ h1{
       padding-bottom: 80px;
 }
 
+.margin-bottom1{
+      padding-bottom: 30px;
+}
+
 .border-left, .border-right{
       width: 300px;
 }
+
 /*============NAV BAR DECOR================*/
 .nav-bar1{
     background-color: #000000 !important;
@@ -350,7 +355,7 @@ h3{
       /*border-bottom: 3px solid black;*/
 }
 
-.bottom-border img{
+.bottom-border img, .game-update-bottom-border img{
       width: 100%;
       height: auto;
 }
@@ -488,7 +493,7 @@ h3{
 
 .news-hub-content-list{
       background: url("../img/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
-      background-size: cover
+      background-size: cover;
 }
 
 .news-hub-content-list  h1{
@@ -500,6 +505,44 @@ h3{
 .news-hub-content-list-extend{
       background-color: black
 }
+
+ /*====MAJOR GAME UPDATE CSS=====*/
+
+.game-update-content-bg{
+      background: url("../img/MSimg/gameupdate-bg.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+.game-update-bottom-border{
+      padding-top: 500px;
+}
+
+.game-update-content{
+      background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_section_ghosted_grey_variation_1.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+
+.game-update-content-list{
+      overflow: hidden;
+      -webkit-box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
+      -moz-box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
+      box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
+}
+.game-update-content img{
+      transform: scale(1);
+      transition: all 400ms ease-in 0ms;
+      max-width: 100%;
+      width: 100%;
+}
+
+.game-update-content img:hover{
+      transform: scale(1.1);
+}
+
+.game-update-content-list-extend{
+      background-color:#ccccc4;
+      background-size: cover;
+}
+/**/
 /*===MEDIA QUERIES==*/
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
