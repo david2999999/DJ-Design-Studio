@@ -110,7 +110,7 @@
                               <br>
                         </div>
                   </div>
-                  <div class="row game-update-content-container">
+                        <div class="row game-update-content-container">
                               <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
                                     <div class="game-update-content-list">
                                           <a href="#"><img src="http://nxcache.nexon.net/cms/2017/1465/171101nva360x203.jpg" alt="NOVA UPDATE"></a>
@@ -172,10 +172,21 @@
                                     </div>
                               </div>
                         </div>
-
-
             </div>
       </div>
+      <div class="game-update-content-list-extend">
+            <div class="container">
+                  <div class="game-update-content-list2">
+
+                  </div>
+                  <div class="moreUpdates">
+                        <div class="col-lg-12 text-center">
+                              <button class="btn btn-outline-primary btn-xlarge" type="submit">SEE MORE UPDATES</button>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
       <div class="footer">
             <div class="container">
                   <div class="row">
@@ -204,28 +215,66 @@
  <script src="js/lib/underscore-min.js"></script>
  <script src="js/lib/backbone-min.js"></script>
 
- <script id="content-template" type="text/html">
-      <div class="single">
-            <div class="row">
-                  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 padding-0">
-                        <div class="thumbnail padding-0">
-                              <a href="#"><img src= <%= imgUrl %> alt="..."></a>
-                        </div>
-                  </div>
-                  <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 padding-0">
-                        <div class="thumbnail padding-0">
-                              <div class="caption2">
-                                    <a href="#"><h3><%= title %></h3></a>
-                                    <p><%= description %></p>
-                                    <p class="timeStamp3"><%= date %></p>
-                                    <p class="readMore"><a href="#">read more</a></p>
-                              </div>
-                        </div>
-                  </div>
-            </div>
+ <script id="game-update-content-template" type="javascript/html">
+      <div class="row">
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                         <a href="#"><img src= <%=imgUrl%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl1%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl2%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl3%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl4%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl5%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl6%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl7%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl8%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl9%> alt="..."></a>
+                   </div>
+             </div>
+             <div class="col-lg-4 col-md-6 col-sm-12 margin-bottom1">
+                   <div class="game-update-content-list">
+                        <a href="#"><img src= <%=imgUrl10%> alt="..."></a>
+                   </div>
+             </div>
       </div>
 </script>
 
  <script src="js/index.js" type="text/javascript"></script>
-  <script src="js/news-model.js" type="text/javascript"></script>
+  <script src="js/game-update-model.js" type="text/javascript"></script>
 </html>
