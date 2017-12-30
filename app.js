@@ -169,8 +169,8 @@ app.get("/maplestory/updates",function(req, res) {
     res.render("MapleStory/gameupdates");
 });
 
-app.get("/maplestory/game/classes-jobs",function(req, res) {
-    res.render("MapleStory/class-job");
+app.get("/maplestory/classes-jobs",function(req, res) {
+    res.render("MapleStory/classjob");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
