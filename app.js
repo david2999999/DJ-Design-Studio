@@ -169,6 +169,10 @@ app.get("/maplestory/updates",function(req, res) {
     res.render("MapleStory/gameupdates");
 });
 
+app.get("/maplestory/game/classes-jobs",function(req, res) {
+    res.render("MapleStory/class-job");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("DJ Design Studio has started");
 });

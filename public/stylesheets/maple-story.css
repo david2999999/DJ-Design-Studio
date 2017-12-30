@@ -30,7 +30,9 @@ h1{
 .border-left, .border-right{
       width: 300px;
 }
-
+.btn:hover{
+      cursor: pointer;
+}
 /*============NAV BAR DECOR================*/
 .nav-bar1{
     background-color: #000000 !important;
@@ -355,7 +357,7 @@ h3{
       /*border-bottom: 3px solid black;*/
 }
 
-.bottom-border img, .game-update-bottom-border img{
+.bottom-border img, .game-update-bottom-border img, .classes-job-bottom-border img{
       width: 100%;
       height: auto;
 }
@@ -527,14 +529,14 @@ h3{
       -moz-box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
       box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
 }
-.game-update-content img, .game-update-content-list2 img{
+.game-update-content img, .game-update-content-list2 img, .class-job-content img{
       transform: scale(1);
       transition: all 400ms ease-in 0ms;
       max-width: 100%;
       width: 100%;
 }
 
-.game-update-content img:hover,  .game-update-content-list2 img:hover{
+.game-update-content img:hover,  .game-update-content-list2 img:hover, .class-job-content img:hover{
       transform: scale(1.1);
 }
 
@@ -542,8 +544,24 @@ h3{
       background-color:#ccccc4;
       background-size: cover;
 }
-/**/
+
+/*=====CLASSES AND JOBS CSS=====*/
+.classes-job-content-bg{
+      background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_page_title_game_jobsclasses_overview.jpg") no-repeat 50% 0;
+      background-size: cover;
+      /*height: 400px;*/
+}
+
+.classes-job-bottom-border{
+      padding-top: 400px;
+}
+
+.class-job-content{
+      background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_section_ghosted_grey_variation_5.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
 /*===MEDIA QUERIES==*/
+
 @media (max-width: 1300px){
       .nav-bar2 .navbar-brand{
             margin-left: 8rem !important;
