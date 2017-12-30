@@ -527,14 +527,14 @@ h3{
       -moz-box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
       box-shadow: 10px -7px 14px -5px rgba(153,148,153,1);
 }
-.game-update-content img{
+.game-update-content img, .game-update-content-list2 img{
       transform: scale(1);
       transition: all 400ms ease-in 0ms;
       max-width: 100%;
       width: 100%;
 }
 
-.game-update-content img:hover{
+.game-update-content img:hover,  .game-update-content-list2 img:hover{
       transform: scale(1.1);
 }
 
