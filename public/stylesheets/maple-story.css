@@ -1,12 +1,12 @@
 body{
-    /*background-image: url("../image/MSimg/cover.jpg");*/
+    /*background-image: url("../img/MSimg/cover.jpg");*/
     /*background-repeat: no-repeat;*/
     height: 100vh;
     /*min-width: 1200px;*/
 }
 
 .content{
-      background: url("../image/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       border-top: black 7px solid;
       background-size: cover;
 }
@@ -207,7 +207,7 @@ h3{
 
 /*COMMUNITY NEWS CSS*/
 .community-news{
-      background: url("../image/MSimg/community_img.png") no-repeat 50% 0;
+      background: url("../img/MSimg/community_img.png") no-repeat 50% 0;
       background-size: cover;
       border-bottom: 1px darkred solid;
 }
@@ -352,7 +352,7 @@ h3{
 
 /*=====GAMEHUB CSS======*/
 .content-title{
-      background: url("../image/MSimg/gamehub-bg.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub-bg.jpg") no-repeat 50% 0;
       background-size: cover;
       /*border-bottom: 3px solid black;*/
 }
@@ -382,23 +382,23 @@ h3{
       text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
 }
 .game-hub-content{
-      background: url("../image/MSimg/bg_ghosted_grey2.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/bg_ghosted_grey2.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 .game-hub-content-item{
-      background: url("../image/MSimg/gamehub.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
 
 .game-hub-content-item2{
-      background: url("../image/MSimg/gamehub2.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub2.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
 
 .game-hub-content-item3{
-      background: url("../image/MSimg/gamehub3.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub3.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
@@ -439,19 +439,19 @@ h3{
 }
 
 .gamehub-item1{
-      background: url("../image/MSimg/gamehub-bottom.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub-bottom.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 20px;
       height: 200px;
 }
 .gamehub-item2{
-      background: url("../image/MSimg/gamehub-bottom2.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub-bottom2.jpg") no-repeat 50% 0;
       background-size: cover;
       height: 200px;
       margin-bottom: 20px;
 }
 .gamehub-item3{
-      background: url("../image/MSimg/gamehub-bottom3.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gamehub-bottom3.jpg") no-repeat 50% 0;
       background-size: cover;
       height: 200px;
       margin-bottom: 80px;
@@ -473,7 +473,7 @@ h3{
 
 /*====NEWS HUB CSS======*/
 .news-hub-content-bg{
-      background: url("../image/MSimg/newshub-bg.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/newshub-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
@@ -489,12 +489,12 @@ h3{
 }
 
 .news-hub-content{
-      background: url("../image/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
 .news-hub-content-list{
-      background: url("../image/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
@@ -511,7 +511,7 @@ h3{
  /*====MAJOR GAME UPDATE CSS=====*/
 
 .game-update-content-bg{
-      background: url("../image/MSimg/gameupdate-bg.jpg") no-repeat 50% 0;
+      background: url("../img/MSimg/gameupdate-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 .game-update-bottom-border{
