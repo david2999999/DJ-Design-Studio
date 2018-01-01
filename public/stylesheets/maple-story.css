@@ -1,12 +1,12 @@
 body{
-    /*background-image: url("../img/MSimg/cover.jpg");*/
+    /*background-image: url("../image/MSimg/cover.jpg");*/
     /*background-repeat: no-repeat;*/
     height: 100vh;
     /*min-width: 1200px;*/
 }
 
 .content{
-      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       border-top: black 7px solid;
       background-size: cover;
 }
@@ -207,7 +207,7 @@ h3{
 
 /*COMMUNITY NEWS CSS*/
 .community-news{
-      background: url("../img/MSimg/community_img.png") no-repeat 50% 0;
+      background: url("../image/MSimg/community_img.png") no-repeat 50% 0;
       background-size: cover;
       border-bottom: 1px darkred solid;
 }
@@ -352,12 +352,12 @@ h3{
 
 /*=====GAMEHUB CSS======*/
 .content-title{
-      background: url("../img/MSimg/gamehub-bg.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub-bg.jpg") no-repeat 50% 0;
       background-size: cover;
       /*border-bottom: 3px solid black;*/
 }
 
-.bottom-border img, .game-update-bottom-border img, .classes-job-bottom-border img{
+.bottom-border img, .game-update-bottom-border img, .classes-job-bottom-border img , .explore-maplestory-bottom-border img{
       width: 100%;
       height: auto;
 }
@@ -382,23 +382,23 @@ h3{
       text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
 }
 .game-hub-content{
-      background: url("../img/MSimg/bg_ghosted_grey2.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/bg_ghosted_grey2.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 .game-hub-content-item{
-      background: url("../img/MSimg/gamehub.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
 
 .game-hub-content-item2{
-      background: url("../img/MSimg/gamehub2.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub2.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
 
 .game-hub-content-item3{
-      background: url("../img/MSimg/gamehub3.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub3.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 30px;
 }
@@ -439,19 +439,19 @@ h3{
 }
 
 .gamehub-item1{
-      background: url("../img/MSimg/gamehub-bottom.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub-bottom.jpg") no-repeat 50% 0;
       background-size: cover;
       margin-bottom: 20px;
       height: 200px;
 }
 .gamehub-item2{
-      background: url("../img/MSimg/gamehub-bottom2.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub-bottom2.jpg") no-repeat 50% 0;
       background-size: cover;
       height: 200px;
       margin-bottom: 20px;
 }
 .gamehub-item3{
-      background: url("../img/MSimg/gamehub-bottom3.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gamehub-bottom3.jpg") no-repeat 50% 0;
       background-size: cover;
       height: 200px;
       margin-bottom: 80px;
@@ -473,7 +473,7 @@ h3{
 
 /*====NEWS HUB CSS======*/
 .news-hub-content-bg{
-      background: url("../img/MSimg/newshub-bg.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/newshub-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
@@ -489,12 +489,12 @@ h3{
 }
 
 .news-hub-content{
-      background: url("../img/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/bg_ghosted_grey.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
 .news-hub-content-list{
-      background: url("../img/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/newshub-content-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 
@@ -511,7 +511,7 @@ h3{
  /*====MAJOR GAME UPDATE CSS=====*/
 
 .game-update-content-bg{
-      background: url("../img/MSimg/gameupdate-bg.jpg") no-repeat 50% 0;
+      background: url("../image/MSimg/gameupdate-bg.jpg") no-repeat 50% 0;
       background-size: cover;
 }
 .game-update-bottom-border{
@@ -559,6 +559,80 @@ h3{
 .class-job-content{
       background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_section_ghosted_grey_variation_5.jpg") no-repeat 50% 0;
       background-size: cover;
+}
+
+/*==EXPLORE MAPLESTORY CSS MAPLESTORY PAGE===*/
+.explore-maplestory-content-title{
+      background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_page_title_game_explore_whatis.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+
+.explore-maplestory-bottom-border{
+      padding-top: 350px;
+}
+
+.explore-maplestory-content{
+      background: url("http://nxcache.nexon.net/maplestory/assets-new/img/bg_section_ghosted_grey_variation_4.jpg") no-repeat 50% 0;
+      background-size: cover;
+}
+.explore-maplestory-header{
+      padding: 80px 0 60px 0;
+}
+.explore-maplestory-header h1{
+      font-weight: 700;
+      color: #484846;
+      line-height: 1;
+      font-size: 33px;
+}
+
+.explore-btn{
+      font-family: "Titillium Web",arial,sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-radius: 4px;
+      border: 2px solid #e64120;
+      color: #e64120;
+      font-size: 19px;
+}
+
+.explore-btn:hover{
+      background-color: #e64120;
+      color: white;
+      border: 2px solid #e64120;
+}
+
+.explore-button-list .active-btn{
+      background-color: #e64120;
+      color: white;
+}
+
+.explore-content h2{
+      font-size: 25px;
+      font-weight: 900;
+      color: #484846;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      font-style: normal;
+}
+
+.explore-content p{
+      font-size: 18px;
+      line-height: 1.4;
+      color: #484846;
+      font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
+      padding-bottom: 30px
+}
+
+.explore-content hr{
+      margin: 30px 0;
+      border: 0;
+      border-top: 1px solid #babab3;
+      border-bottom: 1px solid #ddddd8;
+}
+
+.explore-content img{
+      padding-bottom: 30px;
+      max-width: 100%;
+      height: auto;
 }
 /*===MEDIA QUERIES==*/
 
